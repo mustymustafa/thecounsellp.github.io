@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<title>The Counsel Legal Practice </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/png" href="/L.jpg"/>
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('a.jpg');
+  min-height: 100%;
+}
+
+
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PRACTICE</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-greyscale" id="home">
+  <div class="w3-display-topmiddle w3-hide-small w3-hide-medium" >
+    <span style="white-space: nowrap;" class="w3-center w3-top-16  w3-padding-large w3-yellow w3-xxxlarge w3-animate-opacity">THE COUNSEL LEGAL PRACTICE </span>
+
+  </div>
+
+  <div class="w3-display-bottommiddle w3-hide-large" >
+    <span style="white-space: nowrap;" class="w3-center w3-top-16  w3-padding-large w3-yellow w3-xlarge w3-animate-opacity">THE COUNSEL LEGAL PRACTICE </span>
+
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center w3-text-black">ABOUT US</h3>
+  <p><b class="w3-text-black">COUNSEL LEGAL PRACTICE</b> is a fully serviced law firm with broad expertise and experience in providing first-rate services across an array of legal practice areas to different clients that include domestic and international clients, government agencies and individuals.
+ 
+    Our mission is to excel in client service, contribute to the development of the legal profession and society in general. We tackle challenging projects creatively, conduct legal research and due diligence painstakingly, and offer fearless representation to our clients. We are able to offer commercially astute and innovative advice, due to the high calibre of our lawyers and the depth of our knowledge and expertise across a wide range of industries.</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="L.jpg" class="w3-round w3-image" alt="Photo of Me" width="500" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>Located in the heart of the Federal Capital Territory, our corporate office at <b class="w3-text-black"> House 3, 16A POW Mafemi Crescent, Utako, Abuja FCT, Nigeria</b> is strategically situated thereby providing accessibility to existing and potential clients within the Federal Capital territory and its environs.
+ 
+        In a consistently evolving business world, we constantly seek to satisfy our clients in ways that are not just cost-effective but result oriented. Hence we are glad to partner with you in ways that will advance your business objectives.</p>
+    </div>
+  </div>
+  
+  <p class="w3-large w3-center w3-padding-16 w3-text-black">PRACTICE AREAS</p>
+  <p class="w3-large w3-center w3-padding-2">We are committed to providing you with bespoke personal service and pride ourselves on our approachability. We are thus able to offer seamless Legal services delivery:</p>
+  
+  <ul class="w3-ul w3-hoverable">
+    <li> Immigration</li>
+<li> Intellectual Property</li>
+<li> Tax</li>
+<li> Administrative Law</li>
+<li> Consumer Protection</li>
+<li> Internet and Social Media Law</li>
+<li> Human Rights</li>
+<li> Family Law</li>
+<li> Litigation & Arbitration</li>
+<li> Corporate & Commercial</li>
+<li> Corporate Governance</li>
+<li> Real Estate & Construction</li>
+<li> Labour & Employment Law</li>
+<li> Mergers & Acquisition</li>
+<li> Transport and Infrastructure</li>
+<li> Aviation</li>
+<li> Intellectual Property</li>
+<li> Oil & Gas Law</li>
+<li> Company Secretarial Services</li>
+<li> Media, Sports & Entertainment</li>
+<li> Medical law</li>
+  </ul>
+  
+
+</div>
+
+
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">THE TEAM</h3>
+  <p class="w3-center w3-large">Our people are our strength.  We pride ourselves on our team and the expertise they bring to your transaction or legal problem</p>
+  <div class="w3-row-padding " style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="ar.jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Arome Abu</h3>
+          <p class="w3-opacity"> Lead Partner</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="au.jpg" alt="Jane" style="width:100%">
+        <div class="w3-container">
+          <h3>Augusta Aver Yaakugh</h3>
+          <p class="w3-opacity">Senior Associate</p>
+
+         
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="b.jpg" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>Babayemi Olaniyan</h3>
+          <p class="w3-opacity">Senior Associate</p>
+ 
+         
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="m.jpg" alt="Dan" style="width:100%">
+        <div class="w3-container">
+          <h3>Micheal Okoh </h3>
+          <p class="w3-opacity">Associate</p>
+ 
+         
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="lo.jpg" alt="Dan" style="width:100%">
+        <div class="w3-container">
+          <h3>Lovina Ihotu  </h3>
+          <p class="w3-opacity">Associate</p>
+ 
+         
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="y.jpg" alt="Dan" style="width:100%">
+        <div class="w3-container">
+          <h3>Yemisi Adeluoye </h3>
+          <p class="w3-opacity">Associate</p>
+ 
+         
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="g.jpg" alt="Dan" style="width:100%">
+        <div class="w3-container">
+          <h3>Gracelia Ihiabe  </h3>
+          <p class="w3-opacity">Office Administrator</p>
+ 
+         
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-16" id="contact">
+  <h3 class="w3-center w3-text-black">CONTACT US AT</h3>
+
+
+  <div class=" w3-padding-32 w3-section">
+  
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> 3 P.O.W. Mafemi Cres, Mabushi, Abuja, Nigeria<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: 08032622359<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: 07081156539<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: thecounsellegalpractice@gmail.com<br>
+      </div>
+      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+     
+        <button class="w3-button w3-black w3-middle w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> <a href="mailto:thecounsellegalpractice@gmail.com">LEAVE A MESSAGE</a>
+        </button>
+
+    </div>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.936853642973!2d7.432638415359409!3d9.069517593492767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e74d59a008ae5%3A0xf990dc668a48bdbf!2s3%20P.O.W.%20Mafemi%20Cres%2C%20Mabushi%2C%20Abuja%2C%20Nigeria!5e0!3m2!1sen!2suk!4v1618787221404!5m2!1sen!2suk" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+
+    <i class="fa fa-instagram w3-hover-opacity">   @obscurelegalfacts1</i>
+
+    <i class="fa fa-twitter w3-hover-opacity">@ThecounselLP</i>
+
+  </div>
+  <p>Powered by <a href="https://www.thecounsellp.com" title="W3.CSS" target="_blank" class="w3-hover-text-green">The Councel Legal Practice</a></p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
